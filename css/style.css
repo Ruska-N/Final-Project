@@ -1,0 +1,23 @@
+:root {
+    --orange: #F79F1A;
+}
+
+/* header styles */
+.header-block {
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}
+.ul-el {
+    display: flex;
+    width: 471px;
+    column-gap: 50px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fa-solid {
+    margin-right: 30px;
+}
