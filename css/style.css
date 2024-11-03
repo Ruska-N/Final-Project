@@ -1,5 +1,6 @@
 :root {
     --orange: #F79F1A;
+    --green: #046E1B;
 }
 
 /* header styles */
@@ -21,6 +22,9 @@
 }
 .fa-solid {
     margin-right: 30px;
+}
+a {
+    color: black;
 }
 
 /* section 1 styles */
@@ -60,4 +64,114 @@
 .section-1-right img {
     width: 100%;
     height: 100%;
+}
+
+/* section 2 styles */
+.section2 {
+    max-width: 1239.53px;
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.section-2-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.title-2 h2 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 55.7px;
+}
+.title-2 p {
+    font-size: 24px;
+    color: #7F7D7D;
+    line-height: 29px;
+}
+.see-all {
+    width: 150px;
+    height: 55px;
+    background-color: var(--orange);
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.section-2-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 58px 57px;
+}
+.plate {
+    width: 375px;
+    height: 254px;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+}
+.recipe-1{
+    background-image: url(../images/image8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recipe-2{
+    background-image: url(../images/image11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recipe-3{
+    background-image: url(../images/image7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recipe-4{
+    background-image: url(../images/image10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recipe-5{
+    background-image: url(../images/image6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recipe-6{
+    background-image: url(../images/image9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text-on-plate {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: var(--green);
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.green-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.icon {
+    width: 15px;
+    height: 15px;
+}
+.recipe-title {
+    padding: 32px 0 32px 18px;
+}
+.recipe-title h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.view-recipe {
+    color: var(--orange);
+}
+.recipe {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05)
 }
