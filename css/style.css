@@ -16,13 +16,11 @@ html {
     margin: 0 auto;
     width: 86%;
 }
-
 .navbar {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-
 .ul-el {
     display: flex;
     width: 471px;
@@ -112,7 +110,6 @@ a {
     background-image: url(../images/section1photo.jpg);
     background-size: cover;
 }
-
 
 /* section 2 styles */
 .section2 {
@@ -238,7 +235,6 @@ a {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05)
 }
 
-
 /* section 3 styles */
 .section3 {
     width: 100%;
@@ -268,8 +264,10 @@ a {
 }
 .about {
     position: absolute;
-    width: 578px;
-    height: 368px;
+    max-width: 578px;
+    max-height: 368px;
+    width: 80%;
+    height: 80%;
     background-color: white;
     top: 50%;
     left: 50%;
@@ -314,7 +312,7 @@ a {
 .review-grid {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(575px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
     gap: 90px;
 }
 .review-box {
@@ -379,11 +377,11 @@ a {
     max-width: 1240px;
     width: 86%;
     margin: 100px auto 100px auto;
-    gap: 282px;
+    column-gap: 282px;
 }
 .footer-nav {
     display: flex;
-    gap: 100px;
+    column-gap: 100px;
 }
 .menu-bar h3, .categories h3, .social h3 {
     font-size: 24px;
