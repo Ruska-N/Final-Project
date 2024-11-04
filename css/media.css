@@ -50,6 +50,9 @@
         display: none;
     }
     /* section 2 responsive */
+    .section-2-grid {
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    }
     .plate {
         width: 100%;
     }
@@ -87,6 +90,9 @@
 
 @media (max-width: 764px) {
     /* section 2 */
+    .section-2-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100%));
+    }
     .section-2-title {
         flex-direction: column;
         row-gap: 15px;
