@@ -24,10 +24,11 @@ html {
 .ul-el {
     display: flex;
     width: 471px;
-    column-gap: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
     justify-content: space-between;
+    font-family: 'Dosis-bold';
     font-size: 20px;
-    font-weight: bold;
 }
 .nav-a {
     position: relative;
@@ -69,6 +70,7 @@ a {
 }
 .burger, .burger-menu {
     display: none;
+    font-family: 'Dosis-bold';
 }
 
 /* section 1 styles */
@@ -84,12 +86,15 @@ a {
 }
 .main-title h1 {
     font-size: 64px;
-    font-weight: bold;
+    font-family: 'Dosis-bold';
 }
 .main-title p {
     margin-top: 37px;
     margin-bottom: 61px;
     max-width: 424px;
+    font-family: 'Dosis';
+    font-size: 16px;
+    color: #7F7D7D;
 }
 .orange-click {
     width: 249px;
@@ -126,13 +131,14 @@ a {
 }
 .title-2 h2 {
     font-size: 46px;
-    font-weight: bold;
+    font-family: 'Dosis-bold';
     line-height: 55.7px;
 }
 .title-2 p {
     font-size: 24px;
     color: #7F7D7D;
     line-height: 29px;
+    font-family: 'Dosis';
 }
 .see-all {
     width: 150px;
@@ -211,8 +217,8 @@ a {
 }
 .recipe-title h3 {
     font-size: 32px;
-    font-weight: 600;
     margin-bottom: 15px;
+    font-family: 'Dosis-bold';
 }
 .view-recipe {
     color: var(--orange);
@@ -278,12 +284,13 @@ a {
 }
 .about-us h2 {
     font-size: 46px;
-    font-weight: 600;
+    font-family: 'Dosis-bold';
 }
 .about-us p {
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-family: 'Dosis';
 }
 .learn-more {
     width: 197px;
@@ -304,7 +311,7 @@ a {
 .section-4-title {
     max-width: 475px;
     font-size: 46px;
-    font-weight: 600;
+    font-family: 'Dosis-bold';
     margin: 101px auto 70px auto;
     justify-content: center;
     align-items: center;
@@ -328,7 +335,7 @@ a {
 }
 .dish-name h4 {
     font-size: 24px;
-    font-weight: 600;
+    font-family: 'Dosis-bold';
     line-height: 29px;
 }
 .dish-name h6 {
@@ -377,21 +384,23 @@ a {
     max-width: 1240px;
     width: 86%;
     margin: 100px auto 100px auto;
-    column-gap: 282px;
+    -moz-column-gap: 282px;
+         column-gap: 282px;
 }
 .footer-nav {
     display: flex;
-    column-gap: 100px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
 }
 .menu-bar h3, .categories h3, .social h3 {
     font-size: 24px;
-    font-weight: 600;
+    font-family: 'Dosis-bold';
     margin-top: 50px;
     margin-bottom: 30px;
 }
 .newsletter h2 {
     font-size: 24px;
-    font-weight: 600;
+    font-family: 'Dosis-bold';
     margin-bottom: 50px;
 }
 .input-el {
