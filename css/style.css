@@ -239,7 +239,8 @@ a {
     width: 100%;
 }
 .recipe {
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05)
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
 }
 
 /* section 3 styles */
