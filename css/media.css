@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+    /* header responsive */
+    .navbar, .icons {
+        display: none;
+    }
+    .burger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .burger-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .burger-menu.open {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .burger-ul-el {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: left;
+    }
+
+    /* section 1 responsive */
+}

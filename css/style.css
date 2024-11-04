@@ -5,15 +5,24 @@
 html {
     scroll-behavior: smooth;
   }
-/* header styles */
+
+  /* header styles */
 .header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
     width: 86%;
 }
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
 .ul-el {
     display: flex;
     width: 471px;
@@ -41,11 +50,27 @@ html {
 .nav-a:hover::after {
     width: 100%;
 }
-.search-icon {
-    margin-right: 30px;
-}
 a {
     color: black;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.search-input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px;
+}
+.burger, .burger-menu {
+    display: none;
 }
 
 /* section 1 styles */

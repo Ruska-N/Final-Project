@@ -21,8 +21,8 @@
 <body>
     <header>
         <div class="header-block">
-            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
-            <nav>
+            <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo"></a>
+            <nav class="navbar">
                 <ul class="ul-el">
                     <li><a class="nav-a" href="index.html">Home</a></li>
                     <li><a class="nav-a" href="#rec-sec">Recipe</a></li>
@@ -30,10 +30,27 @@
                     <li><a class="nav-a" href="#about-section">About Us</a></li>
                 </ul>
             </nav>
-            <div>
-                <i class="fa-solid fa-magnifying-glass search-icon" style="font-size: 20px;"></i>
-                <i class="fa-regular fa-user" style="font-size: 20px;"></i>
+            <div class="icons">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <i class="fa-regular fa-user user-icon"></i>
             </div>
+            <div class="burger" id="burger">&#9776;</div>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+            <i class="fa-regular fa-user user-icon"></i>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+            <ul class="burger-ul-el">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#rec-sec">Recipe</a></li>
+                <li><a href="#community-section">Community</a></li>
+                <li><a href="#about-section">About Us</a></li>
+            </ul>
         </div>
     </header>
     <section>
@@ -382,7 +399,7 @@
             </div>
             <div class="newsletter">
                 <h2>Sign up for our newsletter</h2>
-                <form action="">
+                <form action="" id="myForm">
                     <label for="email"></label>
                     <input class="input-el" type="email" id="email" name="E-Mail" placeholder="Your Email Address" required><br>
                     <button class="submit" type="submit" value="submit">Submit</button>
@@ -390,5 +407,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
