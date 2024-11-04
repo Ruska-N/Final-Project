@@ -347,3 +347,51 @@ a {
 .share-icon:hover, .like-icon:hover {
     color: blue;
 }
+
+/* footer styles */
+.footer {
+    display: flex;
+    max-width: 1240px;
+    width: 86%;
+    margin: 100px auto 100px auto;
+    gap: 282px;
+}
+.footer-nav {
+    display: flex;
+    gap: 100px;
+}
+.menu-bar h3, .categories h3, .social h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.newsletter h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.input-el {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: border-color 0.5s ease;
+}
+.input-el:focus {
+    border-bottom: 2px solid var(--orange);
+}
+.submit {
+    width: 152px;
+    height: 45px;
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
