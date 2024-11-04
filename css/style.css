@@ -41,7 +41,7 @@ html {
 .nav-a:hover::after {
     width: 100%;
 }
-.fa-solid {
+.search-icon {
     margin-right: 30px;
 }
 a {
@@ -78,14 +78,16 @@ a {
     text-align: center;
     font-size: 20px;
 }
+.orange-click p a {
+    color: white;
+}
 .section-1-right {
-    max-width: 629.53px;
-    max-height: 680px;
+    width: 629.53px;
+    height: 680px;
+    background-image: url(../images/section1photo.jpg);
+    background-size: cover;
 }
-.section-1-right img {
-    width: 100%;
-    height: 100%;
-}
+
 
 /* section 2 styles */
 .section2 {
@@ -268,4 +270,80 @@ a {
     text-align: center;
     align-content: center;
     border-radius: 20px;
+}
+
+/* section 4 styles */
+.section4 {
+    max-width: 1240px;
+    width: 86%;
+    margin: 0 auto;
+}
+.section-4-title {
+    max-width: 475px;
+    font-size: 46px;
+    font-weight: 600;
+    margin: 101px auto 70px auto;
+    justify-content: center;
+    align-items: center;
+}
+.review-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(575px, 1fr));
+    gap: 90px;
+}
+.review-box {
+    padding-left: 33px;
+}
+.person {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.person img {
+    border-radius: 25px;
+}
+.dish-name h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.dish-name h6 {
+    color: #7F7D7D;
+}
+.star-icons {
+    margin-top: 30px;
+}
+.star-icons p {
+    width: 510px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.dish-image {
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.dish-image img {
+    border-radius: 20px;
+}
+.like-share {
+    display: flex;
+    gap: 25px;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 21.65px;
+}
+.like {
+    display: flex;
+}
+.ls {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.share-icon, .like-icon {
+    font-size: 20px;
+}
+.share-icon:hover, .like-icon:hover {
+    color: blue;
 }
